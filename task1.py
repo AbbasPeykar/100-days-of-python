@@ -4,4 +4,4 @@ age = input("How old are you? ")
 country = input("What is your country? ")
 dream_job = input("What is your dream job? ")
 
-print(f"My name is {first_name} {last_name} and I am {age} years old from {country} and my dream job is {dream_job}.")ش
+print(f"My name is {first_name} {last_name} and I am {age} years old from {country} and my dream job is {dream_job}.")
