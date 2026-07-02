@@ -1,23 +1,8 @@
-#Welcome to the Tip Calculator!
+# Band Name Generator
 
-#What was the total bill? 150
+print("Welcome to the Band Name Generator!")
 
-#How much tip would you like to give? 10
+city = input("What is the name of the city you grew up in? ")
+pet = input("What is the name of your pet? ")
 
-#How many people to split the bill? 3
-
-#Each person should pay: 55.0
-
-bill = float(input("Enter your bill: "))
-tip = float(input("Enter your tip percentage: "))
-people = int(input("Enter number of people: "))
-
-tip_amount = bill * tip / 100
-total_bill = bill + tip_amount
-each_person = total_bill / people
-
-print(tip_amount)
-print(total_bill)
-
-
-print(f"Each person should pay: {each_person}")
+print(f"Your band name could be: {city} {pet}")
